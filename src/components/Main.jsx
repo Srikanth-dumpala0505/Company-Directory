@@ -52,33 +52,78 @@ const Main = ({ search, location, industry }) => {
         <>
             
 
-            <Container maxWidth="lg" sx={{ marginTop: 4 }}>
-                <Grid container spacing={5}>
-                    {filteredCompanies.map((company) => (
-                        <Grid item xs={12} sm={12} md={6} lg={3} key={company.id}>
-                            <Card sx={{ borderRadius: 3, boxShadow: 3, height: '100%', width:"250px"}}>
+           
 
-                               
+            <Container maxWidth="lg" sx={{ mt: 4 }}>
+
+                <Grid
+                    container
+                    spacing={4}
+                    justifyContent="space-evenly"
+                >
+                    {filteredCompanies.map((company) => (
+
+                        <Grid
+                            item
+                            xs={12}
+                            sm={6}
+                            md={4}
+                            lg={3}
+                            key={company.id}
+                            sx={{
+                                display: "flex",
+                                justifyContent: "center"
+                            }}
+                        >
+
+                            <Card
+                                sx={{
+                                    borderRadius: 3,
+                                    boxShadow: 3,
+                                    width: "250px",
+                                    height: "100%",
+                                }}
+                            >
+
                                 <CardMedia
                                     component="img"
                                     image={company.logo}
                                     alt={company.name}
-                                    sx={{ width: 140, height: 140, objectFit: "contain", padding: 2, margin: '0 auto' }}
+                                    sx={{
+                                        width: 140,
+                                        height: 140,
+                                        objectFit: "contain",
+                                        p: 2,
+                                        mx: "auto"
+                                    }}
                                 />
 
-                                
-                                <CardContent sx={{ textAlign: 'center' }}>
-                                    <Typography variant="h6">{company.name}</Typography>
-                                    <Typography variant="body2" color="text.secondary">
+                                <CardContent sx={{ textAlign: "center" }}>
+                                    <Typography variant="h6">
+                                        {company.name}
+                                    </Typography>
+
+                                    <Typography
+                                        variant="body2"
+                                        color="text.secondary"
+                                    >
                                         📍 {company.location}
                                     </Typography>
-                                    <Typography variant="body2" color="text.secondary">
+
+                                    <Typography
+                                        variant="body2"
+                                        color="text.secondary"
+                                    >
                                         🏢 {company.industry}
                                     </Typography>
                                 </CardContent>
 
-                               
-                                <CardActions sx={{ justifyContent: 'center' }}>
+                                <CardActions
+                                    sx={{
+                                        justifyContent: "center",
+                                        pb: 2
+                                    }}
+                                >
                                     <Button
                                         size="small"
                                         variant="contained"
@@ -86,21 +131,30 @@ const Main = ({ search, location, industry }) => {
                                         target="_blank"
                                     >
                                         Visit Site
-                                        <ArrowOutwardIcon sx={{ fontSize: '0.875rem', ml: 1 }} />
+                                        <ArrowOutwardIcon
+                                            sx={{
+                                                fontSize: "0.875rem",
+                                                ml: 1
+                                            }}
+                                        />
                                     </Button>
                                 </CardActions>
 
                             </Card>
+
                         </Grid>
                     ))}
                 </Grid>
 
                 {filteredCompanies.length === 0 && (
-                    <Typography variant="h4" textAlign="center" sx={{ mt: 4 }}>
+                    <Typography
+                        variant="h4"
+                        textAlign="center"
+                        sx={{ mt: 4 }}
+                    >
                         No companies found
                     </Typography>
                 )}
-           
             </Container>
            
       </>
