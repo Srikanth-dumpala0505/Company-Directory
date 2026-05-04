@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Google",
+    "location": "USA",
+    "industry": "Technology",
+    "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=64",
+    "officialWebsite": "https://google.com"
+  },
+  {
+    "id": 2,
+    "name": "Microsoft",
+    "location": "USA",
+    "industry": "Technology",
+    "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=64",
+    "officialWebsite": "https://microsoft.com"
+  },
+  {
+    "id": 3,
+    "name": "Amazon",
+    "location": "USA",
+    "industry": "Retail",
+    "logo": "https://www.google.com/s2/favicons?domain=amazon.com&sz=64",
+    "officialWebsite": "https://amazon.com"
+  },
+  {
+    "id": 4,
+    "name": "Infosys",
+    "location": "India",
+    "industry": "IT",
+    "logo": "https://www.google.com/s2/favicons?domain=infosys.com&sz=64",
+    "officialWebsite": "https://infosys.com"
+  },
+  {
+    "id": 5,
+    "name": "TCS",
+    "location": "India",
+    "industry": "IT",
+    "logo": "https://www.google.com/s2/favicons?domain=tcs.com&sz=64",
+    "officialWebsite": "https://tcs.com"
+  },
+  {
+    "id": 6,
+    "name": "Wipro",
+    "location": "India",
+    "industry": "IT",
+    "logo": "https://www.google.com/s2/favicons?domain=wipro.com&sz=64",
+    "officialWebsite": "https://wipro.com"
+  },
+  {
+    "id": 7,
+    "name": "Apple",
+    "location": "USA",
+    "industry": "Technology",
+    "logo": "https://www.google.com/s2/favicons?domain=apple.com&sz=64",
+    "officialWebsite": "https://apple.com"
+  },
+  {
+    "id": 8,
+    "name": "Meta",
+    "location": "USA",
+    "industry": "Technology",
+    "logo": "https://www.google.com/s2/favicons?domain=meta.com&sz=64",
+    "officialWebsite": "https://meta.com"
+  },
+  {
+    "id": 9,
+    "name": "IBM",
+    "location": "USA",
+    "industry": "Technology",
+    "logo": "https://www.google.com/s2/favicons?domain=ibm.com&sz=64",
+    "officialWebsite": "https://ibm.com"
+  },
+  {
+    "id": 10,
+    "name": "Accenture",
+    "location": "Ireland",
+    "industry": "Consulting",
+    "logo": "https://www.google.com/s2/favicons?domain=accenture.com&sz=64",
+    "officialWebsite": "https://accenture.com"
+  },
+  {
+    "id": 11,
+    "name": "Deloitte",
+    "location": "UK",
+    "industry": "Finance",
+    "logo": "https://www.google.com/s2/favicons?domain=deloitte.com&sz=64",
+    "officialWebsite": "https://deloitte.com"
+  },
+  {
+    "id": 12,
+    "name": "Goldman Sachs",
+    "location": "USA",
+    "industry": "Finance",
+    "logo": "https://www.google.com/s2/favicons?domain=goldmansachs.com&sz=64",
+    "officialWebsite": "https://goldmansachs.com"
+  },
+  {
+    "id": 13,
+    "name": "Pfizer",
+    "location": "USA",
+    "industry": "Healthcare",
+    "logo": "https://www.google.com/s2/favicons?domain=pfizer.com&sz=64",
+    "officialWebsite": "https://pfizer.com"
+  },
+  {
+    "id": 14,
+    "name": "Johnson & Johnson",
+    "location": "USA",
+    "industry": "Healthcare",
+    "logo": "https://www.google.com/s2/favicons?domain=jnj.com&sz=64",
+    "officialWebsite": "https://jnj.com"
+  },
+  {
+    "id": 15,
+    "name": "Siemens",
+    "location": "Germany",
+    "industry": "Engineering",
+    "logo": "https://www.google.com/s2/favicons?domain=siemens.com&sz=64",
+    "officialWebsite": "https://siemens.com"
+  },
+  {
+    "id": 16,
+    "name": "BMW",
+    "location": "Germany",
+    "industry": "Automobile",
+    "logo": "https://www.google.com/s2/favicons?domain=bmw.com&sz=64",
+    "officialWebsite": "https://bmw.com"
+  },
+  {
+    "id": 17,
+    "name": "Shopify",
+    "location": "Canada",
+    "industry": "E-commerce",
+    "logo": "https://www.google.com/s2/favicons?domain=shopify.com&sz=64",
+    "officialWebsite": "https://shopify.com"
+  },
+  {
+    "id": 18,
+    "name": "Atlassian",
+    "location": "Australia",
+    "industry": "Technology",
+    "logo": "https://www.google.com/s2/favicons?domain=atlassian.com&sz=64",
+    "officialWebsite": "https://atlassian.com"
+  },
+  {
+    "id": 19,
+    "name": "Flipkart",
+    "location": "India",
+    "industry": "E-commerce",
+    "logo": "https://www.google.com/s2/favicons?domain=flipkart.com&sz=64",
+    "officialWebsite": "https://flipkart.com"
+  },
+  {
+    "id": 20,
+    "name": "Paytm",
+    "location": "India",
+    "industry": "Finance",
+    "logo": "https://www.google.com/s2/favicons?domain=paytm.com&sz=64",
+    "officialWebsite": "https://paytm.com"
+  }
+]
